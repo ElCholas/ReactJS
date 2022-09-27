@@ -1,0 +1,41 @@
+.NavBar {
+    background-color: rgba(61, 61, 61, 0.418);
+}
+
+.nav-link {
+    border: 0;
+    background-color: rgba(61, 61, 61, 0);
+    padding: 0 2rem;
+    margin: 0 4.20rem;
+    transition: color, ease-in-out .3s;
+}
+
+.nav-link:hover {
+    color: rgb(0, 0, 0);
+}
+
+.nav-link_cart {
+    margin-right: 1rem;
+    margin-left: 1.2rem;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-logo{
+    filter: drop-shadow( 0 0 10px rgba(0, 0, 0, 0));
+    transition: .3s;
+}
+
+.container-logo:hover{
+    filter: drop-shadow( 0 0 10px rgba(0, 0, 0, 0.404));
+
+}
+.container-cart{
+    display: flex;
+    padding-top: 10px;
+}
