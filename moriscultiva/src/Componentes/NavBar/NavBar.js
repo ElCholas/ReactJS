@@ -1,6 +1,7 @@
 import CartWidget from "../CartWidget/CartWidget"
 import Logo from "../Logo/Logo"
 import "./NavBar.css"
+import { Link } from "react-router-dom"
 
 
 const NavBar = () => {
@@ -15,10 +16,10 @@ const NavBar = () => {
                 <div className="container collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <button className="nav-link" aria-current="page" href="#">Inicio</button>
+                            <Link to="/"><button className="nav-link" aria-current="page" href="#">Aceites</button></Link>
                         </li>
                         <li className="nav-item">
-                            <button className="nav-link" href="#">Aceites</button>
+                            <button className="nav-link" href="#">¿ Quienes Somos ?</button>
                         </li>
                         <li className="nav-item">
                             <button className="nav-link" href="#">CBD</button>
