@@ -1,0 +1,22 @@
+.loading {
+    text-align: center;
+    padding-top: auto;
+}
+
+.cardDetail {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 1500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 7rem auto 0 auto;
+    border: 1px solid rgba(0, 0, 0, 0.115);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.34);
+}
+
+.detalleProducto {
+    text-align: center;
+    margin: 2rem;
+}

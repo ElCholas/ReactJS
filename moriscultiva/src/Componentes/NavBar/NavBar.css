@@ -26,16 +26,21 @@
     align-items: center;
 }
 
-.container-logo{
-    filter: drop-shadow( 0 0 10px rgba(0, 0, 0, 0));
+.container-logo {
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0));
     transition: .3s;
 }
 
-.container-logo:hover{
-    filter: drop-shadow( 0 0 10px rgba(0, 0, 0, 0.404));
+.container-logo:hover {
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.404));
 
 }
-.container-cart{
+
+.container-cart {
     display: flex;
     padding-top: 10px;
+}
+
+.nav_link {
+    text-decoration: none;
 }

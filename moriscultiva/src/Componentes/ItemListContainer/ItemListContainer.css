@@ -1,4 +1,9 @@
-.ItemListContainer{
+.ItemListContainer {
     text-align: center;
-    padding-top: 10rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.loading {
+    text-align: center;
 }

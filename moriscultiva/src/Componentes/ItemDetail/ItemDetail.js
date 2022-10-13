@@ -1,13 +1,18 @@
+import "./ItemDetail.css"
 import "../../asyncMock"
+import Counter from "../../Counter/Counter"
 
-const ItemDetail = ({ img , nombre, categoria, precio, descripcion }) => {
+const ItemDetail = ({ img, nombre, categoria, precio, descripcion }) => {
     return (
-        <div>
-            <img src={img} alt={nombre} />
-            <h1>{nombre}</h1>
-            <p>{categoria}</p>
-            <p>${precio}</p>
-            <p>Descripcion: {descripcion}</p>
+        <div className="detail">
+            <img className="detail_img" src={img} alt={nombre} />
+            <div className="detail_text">
+                <h1 className="detail_text-nombre">{nombre}</h1>
+                <p className="detail_text-categoria"> {categoria}</p>
+                <p className="detail_text-precio">${precio}</p>
+                <p className="detail_text-descripcion">Descripcion: {descripcion}</p>
+                <Counter />
+            </div>
         </div>
     )
 }

@@ -16,7 +16,7 @@ const NavBar = () => {
                 <div className="container collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <Link to="/"><button className="nav-link" aria-current="page" href="#">Aceites</button></Link>
+                            <Link className="nav_link" to="/"><button className="nav-link" aria-current="page" href="#">Aceites</button></Link>
                         </li>
                         <li className="nav-item">
                             <button className="nav-link" href="#">¿ Quienes Somos ?</button>
