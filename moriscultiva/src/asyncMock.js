@@ -4,7 +4,7 @@ const productos = [
         nombre: "Dance World",
         precio: "3000",
         img: "/assets/DanceWorld.jpg",
-        categoria: "CBD 1:1",
+        categoria: "CBD1:1",
         descripcion: "Aceite CBD Dance World, el rico perfil de terpenos de Dance World infunde cada golpe con deliciosas notas de fruta, pino y especias.",
     },
 
@@ -13,7 +13,7 @@ const productos = [
         nombre: "Sour Compassion",
         precio: "3000",
         img: "/assets/SourCompassion.jpeg",
-        categoria: "CBD 1:1",
+        categoria: "CBD1:1",
         descripcion: "Aceite CBD Sour Compassion, aroma a cebolla se hace mentolado al paladar, el Linalool me viene al cerebro cuando posa la lengua, con una pizca cítrica.",
     },
 
@@ -51,6 +51,14 @@ export const getProductoById = (id) => {
             resolve(productos.find(prod => {
                 return prod.id === id
             }))
+        }, 500)
+    })
+}
+
+export const getProductosByCategoria = (categoriaProductos) => {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            resolve(productos.filter(prod => prod.categoria === categoriaProductos))
         }, 500)
     })
 }

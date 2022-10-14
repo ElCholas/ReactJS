@@ -1,11 +1,11 @@
 import "./Counter.css"
 import { useState } from "react"
 
-const Counter = () => {
-    const [counter, setCounter] = useState(0)
+const Counter = ({initial = 1}) => {
+    const [counter, setCounter] = useState(initial)
 
     const subtract = () => {
-        if (counter > 0) {
+        if (counter > 1) {
             setCounter(counter - 1)
         }
     }

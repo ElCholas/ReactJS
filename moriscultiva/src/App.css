@@ -28,8 +28,11 @@
   color: #61dafb;
 }
 
-.notFound {
-  text-align: center;
+.notFound{
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @keyframes App-logo-spin {

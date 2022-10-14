@@ -16,17 +16,13 @@ const NavBar = () => {
                 <div className="container collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <Link className="nav_link" to="/"><button className="nav-link" aria-current="page" href="#">Aceites</button></Link>
+                            <Link className="nav_link" to={"/categoria/CBD1:1"}>
+                            <button className="nav-link" aria-current="page" href="">CBD 1:1</button>
+                            </Link>
                         </li>
-                        <li className="nav-item">
-                            <button className="nav-link" href="#">¿ Quienes Somos ?</button>
-                        </li>
-                        <li className="nav-item">
-                            <button className="nav-link" href="#">CBD</button>
-                        </li>
-                        <li className="nav-item">
-                            <button className="nav-link" href="#">Contacto</button>
-                        </li>
+                        <Link className="nav-link" to={"/categoria/CBD"}>
+                            <button className="nav-link" aria-current="page" href="">CBD</button>
+                            </Link>
                     </ul>
                 </div>
                 <div className="container-cart container-logo nav-link_cart">

@@ -1,6 +1,5 @@
 import "./ItemDetail.css"
-import "../../asyncMock"
-import Counter from "../../Counter/Counter"
+import Counter from "../Counter/Counter"
 
 const ItemDetail = ({ img, nombre, categoria, precio, descripcion }) => {
     return (
@@ -9,7 +8,7 @@ const ItemDetail = ({ img, nombre, categoria, precio, descripcion }) => {
             <div className="detail_text">
                 <h1 className="detail_text-nombre">{nombre}</h1>
                 <p className="detail_text-categoria"> {categoria}</p>
-                <p className="detail_text-precio">${precio}</p>
+                <p className="detail_text-precio">Precio: ${precio}</p>
                 <p className="detail_text-descripcion">Descripcion: {descripcion}</p>
                 <Counter />
             </div>
