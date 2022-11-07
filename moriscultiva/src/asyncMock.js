@@ -6,6 +6,7 @@ const productos = [
         img: "/assets/DanceWorld.jpg",
         categoria: "CBD1:1",
         descripcion: "Aceite CBD Dance World, el rico perfil de terpenos de Dance World infunde cada golpe con deliciosas notas de fruta, pino y especias.",
+        stock : "8"
     },
 
     {
@@ -15,6 +16,7 @@ const productos = [
         img: "/assets/SourCompassion.jpeg",
         categoria: "CBD1:1",
         descripcion: "Aceite CBD Sour Compassion, aroma a cebolla se hace mentolado al paladar, el Linalool me viene al cerebro cuando posa la lengua, con una pizca cítrica.",
+        stock : "10"
     },
 
     {
@@ -24,6 +26,7 @@ const productos = [
         img: "/assets/SwissDram.jpg",
         categoria: "CBD",
         descripcion: "Aceite CBD Swiss Dream, su aroma a diesel y jengibre. Tiene además un fondo de cítrico interesante. Es picante, pero de forma tenue.",
+        stock : "5"
     },
 
     {
@@ -33,6 +36,7 @@ const productos = [
         img: "/assets/KamaKush.jpg",
         categoria: "CBD",
         descripcion: "Aceite CBD Kama Kush, sabor muy agradable en boca, con toques afrutados y tropicales.",
+        stock : "12"
     }
 
 ]
